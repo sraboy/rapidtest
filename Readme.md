@@ -29,10 +29,11 @@ I decided to set up a nice solution with a bunch of common properties and config
  * Subdirectories (all included in the project's filters):
 	* `buildcmd` with `prebuild.bat`, `prelink.bat`, `postbuild.bat`
 	* `gitignore_inc` and `inc` as Additional Include Directories
-	* `lib` as an Additional Libraray Directory
+	* `lib` as an Additional Library Directory
 	* `src` and `gitignore_src` for implementation files
 	* `gitignore_*` dirs each have a `.gitignore` to ignore everything but `.gitignore` and the `proprietary.[h|cpp]` within. This is where you can dump code that for one reason or another, you don't want committed to GitHub (e.g., it's proprietary or part of some other project).
  * Some boilerplate code with namespaces, includes, etc
+ 
 Since `proprietary.h` and `proprietary.cpp` are tracked files, git will never ignore them. To help prevent an unwitting `git add .` from staging code that ought not to be committed, I've employed a cheap hack with the pre-build event through two commands in `prebuild.bat`: 
 ```
 git update-index --assume-unchanged ./gitignore_inc/proprietary.h
