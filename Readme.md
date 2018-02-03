@@ -22,6 +22,8 @@ I decided to set up a nice solution with a bunch of common properties and config
 #### Projects in `master` have the following common settings:
 
  * Set to use C++17
+ * Warning Level 4
+ * Code Analysis on build
  * Not using pre-compiled headers
  * Pre-build, pre-link and post-build commands, each launching `BAT` files in `$(ProjectDir)buildcmd`
  * Intermediate/Build directory: `$(ProjectDir)build\$(Configuration)-$(Platform)`
