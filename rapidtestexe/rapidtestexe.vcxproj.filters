@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{22966902-85f4-48a8-8d80-0127ce5d3b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{6b63e62e-d685-4240-bf06-c53dfec5279f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gitignore_inc">
+      <UniqueIdentifier>{1b6f660a-22d7-46ef-80b0-69a5e532bcf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gitignore_src">
+      <UniqueIdentifier>{6c481313-9082-4d31-897c-0f1e2261f588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="buildcmd">
+      <UniqueIdentifier>{3fa0e89c-2993-4969-9c8e-d56cdfaf3b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{a79cf374-c50a-4ff6-9d72-a6fae734e027}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gitignore_inc\proprietary.h">
+      <Filter>gitignore_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\rapidtestexe.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="gitignore_src\proprietary.cpp">
+      <Filter>gitignore_src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rapidtestexe.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="buildcmd\prebuild.bat">
+      <Filter>buildcmd</Filter>
+    </None>
+    <None Include="buildcmd\prelink.bat">
+      <Filter>buildcmd</Filter>
+    </None>
+    <None Include="buildcmd\postbuild.bat">
+      <Filter>buildcmd</Filter>
+    </None>
+  </ItemGroup>
+</Project>
