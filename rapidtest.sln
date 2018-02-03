@@ -12,6 +12,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{90C4014D-D48
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rapidtestexe", "rapidtestexe\rapidtestexe.vcxproj", "{C7F9698D-DE4A-4BFF-AA69-61E47B1F308B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{616CC461-068D-4368-B89F-69B8F19DE67B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		License.md = License.md
+		Readme.md = Readme.md
+		update_template.cmd = update_template.cmd
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
