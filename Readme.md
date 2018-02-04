@@ -39,7 +39,7 @@ These apply only to projects in `master`, since those are the templates. Obvious
 	* `src` and `gitignore_src` for implementation files
 	* `gitignore_*` dirs each have a `.gitignore` to ignore everything but `.gitignore` and the `proprietary.[h|cpp]` within. This is where you can dump code that for one reason or another, you don't want committed to GitHub (e.g., it's proprietary or part of some other project).
  * Some boilerplate code with namespaces, includes, etc
- * Linux projects have `%LocalAppData%\lxss\rootfs\usr\local\include\` and `%LocalAppData%\lxss\rootfs\usr\include\` as Additional Include Directories, which point to the current user's WSL rootfs. These are in addition to the standard headers provided by Visual Studio because I was having some issues building otherwise.
+ * The Linux project has `%LocalAppData%\lxss\rootfs\usr\local\include\` and `%LocalAppData%\lxss\rootfs\usr\include\` as Additional Include Directories, which point to the current user's WSL rootfs. These are in addition to the standard headers provided by Visual Studio because I was having some issues building otherwise. You'll also notice some funny business in the directory settings for remote build/debug to work around bugs in VS.
  
 Since `proprietary.h` and `proprietary.cpp` are tracked files, git will never ignore them. To help prevent an unwitting `git add .` from staging code that ought not to be committed, I've employed a cheap hack with the pre-build event through two commands in `prebuild.bat`: 
 ```
