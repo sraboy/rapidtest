@@ -16,6 +16,7 @@ I decided to set up a nice solution with a bunch of common properties and config
  * A modified version of [this .gitignore](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore). 
  * `inc` and `lib` subdirectories
  * `inc\common.h` for solution-wide includes
+ * `inc\debug.h` for C-compatible debug output in user-mode or kernel-mode
  * Batch Build enabled for Win32, x64, Debug and Release
  * `update_template.cmd` to automate updating the templates and check-in the "proprietary" files (see below)
  
@@ -47,4 +48,4 @@ These two commands only need to be run once locally but I develop on several VMs
 
 ### License
 
-The `master` branch is optionally "public domain" or [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Other than that, beware, because I may have committed borrowed testing code under any arbitrary license.
+Unless otherwise noted (e.g. `debug.h` is MIT), the `master` branch is optionally "public domain" or [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Other than that, beware, because I may have committed borrowed testing code under any arbitrary license.
