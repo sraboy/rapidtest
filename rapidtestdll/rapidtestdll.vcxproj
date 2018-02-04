@@ -123,6 +123,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir)inc\;$(ProjectDir)gitignore_inc\;$(SolutionDir)inc\</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <EnablePREfast>true</EnablePREfast>
+      <AssemblerOutput>All</AssemblerOutput>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -150,6 +151,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir)inc\;$(ProjectDir)gitignore_inc\;$(SolutionDir)inc\</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <EnablePREfast>true</EnablePREfast>
+      <AssemblerOutput>All</AssemblerOutput>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -179,6 +181,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir)inc\;$(ProjectDir)gitignore_inc\;$(SolutionDir)inc\</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <EnablePREfast>true</EnablePREfast>
+      <AssemblerOutput>All</AssemblerOutput>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -210,6 +213,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir)inc\;$(ProjectDir)gitignore_inc\;$(SolutionDir)inc\</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <EnablePREfast>true</EnablePREfast>
+      <AssemblerOutput>All</AssemblerOutput>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

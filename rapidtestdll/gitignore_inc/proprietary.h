@@ -9,13 +9,17 @@
 #pragma once
 #include "common.h"
 
+EXTERN_C_START
+
 namespace rapidtestdll {
     namespace proprietary {
 
-        bool test_process_attach();
-        bool test_process_detach();
-        bool test_thread_attach();
-        bool test_thread_detach();
+        bool proprietary_test_process_attach();
+        bool proprietary_test_process_detach();
+        bool proprietary_test_thread_attach();
+        bool proprietary_test_thread_detach();
 
     }
 }
+
+EXTERN_C_END

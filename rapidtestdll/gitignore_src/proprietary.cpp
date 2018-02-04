@@ -11,23 +11,23 @@
 namespace rapidtestdll {
     namespace proprietary {
 
-        bool test_process_attach() {
+        bool proprietary_test_process_attach() {
             return true;
         }
 
-        bool test_process_detach() {
+        bool proprietary_test_process_detach() {
             return true;
         }
 
-        bool test_thread_attach() {
+        bool proprietary_test_thread_attach() {
             return true;
         }
 
-        bool test_thread_detach() {
+        bool proprietary_test_thread_detach() {
             return true;
         }
 
-        int __stdcall do_things_stdcall(bool cond) {
+        int __stdcall proprietary_do_things_stdcall(bool cond) {
             if (cond) {
                 return 0;
             } else {
@@ -35,7 +35,7 @@ namespace rapidtestdll {
             }
         }
 
-        int __cdecl do_things_cdecl(bool cond) {
+        int __cdecl proprietary_do_things_cdecl(bool cond) {
             if (cond) {
                 return 0;
             } else {

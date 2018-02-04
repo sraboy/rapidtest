@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gitignore_inc\proprietary.h" />
+    <ClInclude Include="inc\dllloader.h" />
     <ClInclude Include="inc\rapidtestexe.h" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +125,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalIncludeDirectories>$(ProjectDir)inc\;$(ProjectDir)gitignore_inc\;$(SolutionDir)inc\</AdditionalIncludeDirectories>
       <EnablePREfast>true</EnablePREfast>
+      <AssemblerOutput>All</AssemblerOutput>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,6 +153,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir)inc\;$(ProjectDir)gitignore_inc\;$(SolutionDir)inc\</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <EnablePREfast>true</EnablePREfast>
+      <AssemblerOutput>All</AssemblerOutput>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -180,6 +183,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir)inc\;$(ProjectDir)gitignore_inc\;$(SolutionDir)inc\</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <EnablePREfast>true</EnablePREfast>
+      <AssemblerOutput>All</AssemblerOutput>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -211,6 +215,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir)inc\;$(ProjectDir)gitignore_inc\;$(SolutionDir)inc\</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <EnablePREfast>true</EnablePREfast>
+      <AssemblerOutput>All</AssemblerOutput>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

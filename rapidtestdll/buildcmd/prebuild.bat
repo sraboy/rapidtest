@@ -11,5 +11,12 @@ REM
 git update-index --assume-unchanged ./gitignore_inc/proprietary.h
 git update-index --assume-unchanged ./gitignore_src/proprietary.cpp
 
+REM Since VS may parallelize the builds, another project may run the same pre-build events
+REM at the same time, causing git to fail because of a lock, throwing a failure at the build
+REM engine, which stops the build and shows you errors in the IDE. Therefore, we always return
+REM success. Obviously, this could be dangerous but seeing as how this only ever has to succeed
+REM once to be effective, it's worth the risk
+exit 0
+
 REM Do things
 
