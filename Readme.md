@@ -20,16 +20,18 @@ I decided to set up a nice solution with a bunch of common properties and config
  * Batch Build enabled for Win32, x64, Debug and Release
  * `update_template.cmd` to automate updating the templates and check-in the "proprietary" files (see below)
  
-#### Projects in `master` have the following common settings:
+#### Project Common Settings
 
- * Set to use C++17
- * Warning Level 4
+These apply only to projects in `master`, since those are the templates. Obviously some items, like compiler switches, don't apply for Linux, which uses g++.
+
+ * Set to use C++17 (Linux is `/std=gnu++11` until they get non-experimental C++17 support)
+ * Warning Level 4 (`-Wall` on Linux)
  * Code Analysis on build
  * Output "Assembly, Machine Code and Source" (/FAcs) to `$(IntDir)`
  * Not using pre-compiled headers
  * Pre-build, pre-link and post-build commands, each launching `BAT` files in `$(ProjectDir)buildcmd`
- * Intermediate/Build directory: `$(ProjectDir)build\$(Configuration)-$(Platform)`
- * Output directory: `$(SolutionDir)$(Platform)-$(Configuration)`
+ * Intermediate/Build directory: `$(ProjectDir)build\$(Platform)_$(Configuration)\`
+ * Output directory: `$(SolutionDir)$(Platform)_$(Configuration)\`
  * Subdirectories (all included in the project's filters):
 	* `buildcmd` with `prebuild.bat`, `prelink.bat`, `postbuild.bat`
 	* `gitignore_inc` and `inc` as Additional Include Directories
@@ -37,6 +39,7 @@ I decided to set up a nice solution with a bunch of common properties and config
 	* `src` and `gitignore_src` for implementation files
 	* `gitignore_*` dirs each have a `.gitignore` to ignore everything but `.gitignore` and the `proprietary.[h|cpp]` within. This is where you can dump code that for one reason or another, you don't want committed to GitHub (e.g., it's proprietary or part of some other project).
  * Some boilerplate code with namespaces, includes, etc
+ * Linux projects have `%LocalAppData%\lxss\rootfs\usr\local\include\` and `%LocalAppData%\lxss\rootfs\usr\include\` as Additional Include Directories, which point to the current user's WSL rootfs. These are in addition to the standard headers provided by Visual Studio because I was having some issues building otherwise.
  
 Since `proprietary.h` and `proprietary.cpp` are tracked files, git will never ignore them. To help prevent an unwitting `git add .` from staging code that ought not to be committed, I've employed a cheap hack with the pre-build event through two commands in `prebuild.bat`: 
 ```
