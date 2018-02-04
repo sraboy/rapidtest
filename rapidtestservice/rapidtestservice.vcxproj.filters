@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="gitignore_inc">
+      <UniqueIdentifier>{be13d059-2679-4d81-a89a-ce7efa4d8c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gitignore_src">
+      <UniqueIdentifier>{d1c05205-a264-4e6e-890c-5fba65ca10fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="buildcmd">
+      <UniqueIdentifier>{f0d4c20a-734e-4242-ae34-a36a92fc50bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\rapidtestservice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="gitignore_src\proprietary.cpp">
+      <Filter>gitignore_src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gitignore_inc\proprietary.h">
+      <Filter>gitignore_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\rapidtestservice.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="buildcmd\prebuild.bat">
+      <Filter>buildcmd</Filter>
+    </None>
+    <None Include="buildcmd\prelink.bat">
+      <Filter>buildcmd</Filter>
+    </None>
+    <None Include="buildcmd\postbuild.bat">
+      <Filter>buildcmd</Filter>
+    </None>
+  </ItemGroup>
+</Project>
