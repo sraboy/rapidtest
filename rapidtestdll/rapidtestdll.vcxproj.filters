@@ -21,6 +21,9 @@
     <Filter Include="buildcmd">
       <UniqueIdentifier>{b9b2455a-8928-4978-86b9-d60bf8138c7a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{3a8e54f1-c1c6-4b46-b73a-abc364f8e8e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\rapidtestdll.h">
