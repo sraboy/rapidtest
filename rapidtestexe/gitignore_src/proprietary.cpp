@@ -24,4 +24,4 @@ namespace rapidtestexe {
         }
 
     } //proprietary
-} //rapidtestdll
+} //rapidtestexe

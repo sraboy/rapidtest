@@ -27,9 +27,6 @@
     <ClInclude Include="inc\rapidtestexe.h">
       <Filter>inc</Filter>
     </ClInclude>
-    <ClInclude Include="inc\dllloader.h">
-      <Filter>inc</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">

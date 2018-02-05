@@ -24,4 +24,4 @@ namespace rapidtestlinux {
         }
 
     } //proprietary
-} //rapidtestdll
+} //rapidtestlinux

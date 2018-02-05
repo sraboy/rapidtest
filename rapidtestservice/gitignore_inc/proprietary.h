@@ -15,4 +15,4 @@ namespace rapidtesservice {
         int proprietary_main(char **, int);
 
     } //proprietary
-} //rapidtestdll
+} //rapidtesservice

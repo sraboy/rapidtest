@@ -15,4 +15,4 @@ namespace rapidtestexe {
         int proprietary_main(char **, int);
 
     } //proprietary
-} //rapidtestdll
+} //rapidtestexe

@@ -19,7 +19,7 @@ namespace rapidtestdll {
         bool proprietary_test_thread_attach();
         bool proprietary_test_thread_detach();
 
-    }
-}
+    }//proprietary
+}//rapidtestdll
 
 EXTERN_C_END

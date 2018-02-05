@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "inc", "inc", "{3EFC5B85-B93
 	ProjectSection(SolutionItems) = preProject
 		inc\common.h = inc\common.h
 		inc\debug.h = inc\debug.h
+		inc\dllloader.h = inc\dllloader.h
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{90C4014D-D484-4A18-939B-DB1EE35F4008}"
