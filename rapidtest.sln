@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rapidtestservice", "rapidte
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rapidtestlinux", "rapidtestlinux\rapidtestlinux.vcxproj", "{BFEA4E9C-4D79-45F0-B09C-FA4C432409A6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rapidtestgui", "rapidtestgui\rapidtestgui.vcxproj", "{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -79,6 +81,16 @@ Global
 		{BFEA4E9C-4D79-45F0-B09C-FA4C432409A6}.Release|x64.Build.0 = Release|x64
 		{BFEA4E9C-4D79-45F0-B09C-FA4C432409A6}.Release|x86.ActiveCfg = Release|x86
 		{BFEA4E9C-4D79-45F0-B09C-FA4C432409A6}.Release|x86.Build.0 = Release|x86
+		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Debug|ARM.ActiveCfg = Debug|Win32
+		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Debug|x64.ActiveCfg = Debug|x64
+		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Debug|x64.Build.0 = Debug|x64
+		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Debug|x86.Build.0 = Debug|Win32
+		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Release|ARM.ActiveCfg = Release|Win32
+		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Release|x64.ActiveCfg = Release|x64
+		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Release|x64.Build.0 = Release|x64
+		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Release|x86.ActiveCfg = Release|Win32
+		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

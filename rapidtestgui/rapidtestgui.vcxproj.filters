@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="gitignore_inc">
+      <UniqueIdentifier>{d2c6e648-e18f-4edb-b514-0a15a51e3c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gitignore_src">
+      <UniqueIdentifier>{58623bb2-ed79-4c2d-85c9-59b3d57f776e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="buildcmd">
+      <UniqueIdentifier>{d9a4846e-a846-4ff2-92ef-2cb2f039b901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{6028fb73-6ff2-4098-9628-ab4e82cdba37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\targetver.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\rapidtestgui.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\resource.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="gitignore_inc\proprietary.h">
+      <Filter>gitignore_inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gitignore_src\proprietary.cpp">
+      <Filter>gitignore_src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rapidtestgui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="buildcmd\prebuild.bat">
+      <Filter>buildcmd</Filter>
+    </None>
+    <None Include="buildcmd\prelink.bat">
+      <Filter>buildcmd</Filter>
+    </None>
+    <None Include="buildcmd\postbuild.bat">
+      <Filter>buildcmd</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="inc\rapidtestgui.rc">
+      <Filter>inc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="inc\rapidtestgui.ico">
+      <Filter>inc</Filter>
+    </Image>
+    <Image Include="inc\small.ico">
+      <Filter>inc</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
