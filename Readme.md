@@ -49,6 +49,11 @@ git update-index --assume-unchanged ./gitignore_src/proprietary.cpp
 
 These two commands only need to be run once locally but I develop on several VMs and often start with a fresh clone. Since there's no way to use `.gitignore` or `.gitattributes` to achieve the same effect, and I really wanted these two files already part of these project templates, I figured I'm likely to build at least once before trying to commit anything, so this will help me in case I forget.
 
+### Extras
+
+The following single-header libs are included (list may grow/shrink arbitrarily):
+ - [Catch2 v2.1.2](https://github.com/catchorg/Catch2/releases/download/v2.1.2/catch.hpp). A simple unit testing framework. (Boost Software License 1.0)
+
 ### License
 
 Unless otherwise noted (e.g. `debug.h` is MIT), the `master` branch is optionally "public domain" or [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Other than that, beware, because I may have committed borrowed testing code under any arbitrary license.

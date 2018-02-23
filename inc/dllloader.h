@@ -8,7 +8,7 @@
 #include "debug.h"
 
 #ifndef DLLCALLCONV
-#define DLLCALLCONV __stdcall
+#define DLLCALLCONV __cdecl
 #endif
 
 namespace dllloader {
