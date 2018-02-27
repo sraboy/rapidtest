@@ -37,8 +37,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rapidtestgui", "rapidtestgu
 		{6288AB0C-C6EA-401A-B1E1-2EFCC020C6E7} = {6288AB0C-C6EA-401A-B1E1-2EFCC020C6E7}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rapidcatch", "rapidcatch\rapidcatch.vcxproj", "{9E98A48D-9AB3-449A-9750-4D9DC0C177EC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -87,14 +85,6 @@ Global
 		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Release|Win32.Build.0 = Release|Win32
 		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Release|x64.ActiveCfg = Release|x64
 		{2E4FB652-135C-4A4E-8E9C-B51AF26482E3}.Release|x64.Build.0 = Release|x64
-		{9E98A48D-9AB3-449A-9750-4D9DC0C177EC}.Debug|Win32.ActiveCfg = Debug|Win32
-		{9E98A48D-9AB3-449A-9750-4D9DC0C177EC}.Debug|Win32.Build.0 = Debug|Win32
-		{9E98A48D-9AB3-449A-9750-4D9DC0C177EC}.Debug|x64.ActiveCfg = Debug|x64
-		{9E98A48D-9AB3-449A-9750-4D9DC0C177EC}.Debug|x64.Build.0 = Debug|x64
-		{9E98A48D-9AB3-449A-9750-4D9DC0C177EC}.Release|Win32.ActiveCfg = Release|Win32
-		{9E98A48D-9AB3-449A-9750-4D9DC0C177EC}.Release|Win32.Build.0 = Release|Win32
-		{9E98A48D-9AB3-449A-9750-4D9DC0C177EC}.Release|x64.ActiveCfg = Release|x64
-		{9E98A48D-9AB3-449A-9750-4D9DC0C177EC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
